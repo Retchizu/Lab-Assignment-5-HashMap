@@ -35,7 +35,6 @@ public class DepartmentDA {
                         totalSalary += Double.parseDouble((splitDepTempFile[2].trim()));
                         employeeDA.getEmployee().setSalary(Double.parseDouble(splitDepTempFile[2].trim()));
                         Double parsedSalary = Double.parseDouble(splitDepTempFile[2].trim());
-                        System.out.println("Parsed Salary: " + parsedSalary);
                     }
                   employeeHashMap.put(employeeDA.getEmployee().getEmpNo() + key, employeeDA.getEmployee());
                 }

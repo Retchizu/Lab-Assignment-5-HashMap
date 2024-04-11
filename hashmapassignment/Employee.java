@@ -1,7 +1,5 @@
 package hashmapassignment;
 
-import java.util.HashMap;
-
 public class Employee {
     private String empNo;
     private String lastName;
